@@ -595,6 +595,177 @@ $color-white:#ffffff;
     }
 }
 
+.stylish {
+    background-color:#9a9a9a;
+    // .stylish__body
+
+    &__body {
+        height: 330px;
+        max-height: 100%;
+        max-width: 1150px;
+        margin: 0 auto;
+        padding: 70px 0px;
+        
+    }
+
+    // .stylish__header
+
+    &__header {
+       margin-bottom: 30px;
+    }
+
+    // .stylish__title
+
+    &__title {
+        margin-bottom: 40px;
+        color:$color-white;
+        &__::after{
+            color:$color-white;
+        }
+    }
+
+    // .stylish__text
+
+    &__text {
+        font-size: 14px;
+        max-width: 500px;
+        text-align: center;
+        margin: 0 auto;
+        color:#f2eded;
+    }
+}
+.title {
+}
+.stylih {
+
+    // .stylih__downloadbtn
+
+    &__downloadbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 15px;
+        margin-top: 70px;
+
+        button{
+            width: 120px;
+            height: 40px;
+            background-color:transparent;
+            border:1px solid $color-white;
+            font-size: 10px;
+            color:$color-white;
+        }
+        button:hover{
+            color:#000;
+            background-color:#ff9b51;
+            border: 1px solid #000;
+            transition: 0.3s;
+        }
+    }
+}
+.contact {
+
+    // .contact__body
+
+    &__body {
+        margin: 0 auto;
+        height: 600px;
+        max-height: 100%;
+        width: 1150px;
+        max-width: 100%;
+        padding: 70px 0px;
+        
+    }
+
+    // .contact__header
+
+    &__header {
+        
+        
+    }
+
+    // .contact__title
+
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    // .contact__text
+
+    &__text {
+        font-size: 14px;
+        max-width: 500px;
+        text-align: center;
+        margin: 0 auto;
+        color:#86878b;
+    }
+}
+.title {
+}
+.mesage-contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+
+    // .mesage-contact__input
+
+    &__input {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    // .mesage-contact__user
+
+    &__user {
+        display: flex;
+        flex-direction: column;
+
+        input{
+            margin-bottom: 60px;
+            width: 400px;
+            color:#86878b;
+            border-bottom:1px solid #86878b;
+            padding-bottom: 10px;
+        }
+        
+    }
+
+    // .mesage-contact__text
+
+    &__text {
+        
+        textarea{
+            height: 200px;
+            width: 400px;
+            border-bottom:1px solid #86878b;
+            resize: none;
+            
+        }
+    }
+
+    // .mesage-contact__btn
+
+    &__btn {
+        margin: 0 auto;
+        button{
+            width: 120px;
+            height: 40px;
+            font-size: 14px;
+            background-color:#ff9b51;
+            color:$color-white;
+            margin-top: 30px;
+        }
+        button:hover{
+            border: 1px solid #000;
+            color:#000;
+            transition: 0.3s;
+        }
+    }
+}
+
+
+
 
 
 

@@ -509,3 +509,115 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
 }
+
+.stylish {
+  background-color: #9a9a9a;
+}
+.stylish__body {
+  height: 330px;
+  max-height: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 70px 0px;
+}
+.stylish__header {
+  margin-bottom: 30px;
+}
+.stylish__title {
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+.stylish__title__::after {
+  color: #ffffff;
+}
+.stylish__text {
+  font-size: 14px;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  color: #f2eded;
+}
+
+.stylih__downloadbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 15px;
+  margin-top: 70px;
+}
+.stylih__downloadbtn button {
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  font-size: 10px;
+  color: #ffffff;
+}
+.stylih__downloadbtn button:hover {
+  color: #000;
+  background-color: #ff9b51;
+  border: 1px solid #000;
+  transition: 0.3s;
+}
+
+.contact__body {
+  margin: 0 auto;
+  height: 600px;
+  max-height: 100%;
+  width: 1150px;
+  max-width: 100%;
+  padding: 70px 0px;
+}
+.contact__title {
+  margin-bottom: 40px;
+}
+.contact__text {
+  font-size: 14px;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  color: #86878b;
+}
+
+.mesage-contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.mesage-contact__input {
+  display: flex;
+  justify-content: space-around;
+}
+.mesage-contact__user {
+  display: flex;
+  flex-direction: column;
+}
+.mesage-contact__user input {
+  margin-bottom: 60px;
+  width: 400px;
+  color: #86878b;
+  border-bottom: 1px solid #86878b;
+  padding-bottom: 10px;
+}
+.mesage-contact__text textarea {
+  height: 200px;
+  width: 400px;
+  border-bottom: 1px solid #86878b;
+  resize: none;
+}
+.mesage-contact__btn {
+  margin: 0 auto;
+}
+.mesage-contact__btn button {
+  width: 120px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #ff9b51;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.mesage-contact__btn button:hover {
+  border: 1px solid #000;
+  color: #000;
+  transition: 0.3s;
+}
